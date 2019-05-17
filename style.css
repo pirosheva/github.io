@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: grey;
+}
+.header{
+	margin: 0 auto;
+	text-align: center;
+	padding: 1%;
+	box-sizing: border-box;
+}
+.wrapper {
+	max-width: 600px;
+	width: 100%;
+	background-color: white;
+	margin: 0 auto;
+	display: flex;
+	box-sizing: border-box;
+
+}
+article {
+	width:200px;
+	background-color: white;
+	display: inline-block;
+	padding: 2%;
+	box-sizing: border-box;
+}
+span {
+	font-weight: bold;
+}
+h2{
+	font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+.wrapper{
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.article{
+	width:50%;
+}
+}
